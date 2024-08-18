@@ -3,7 +3,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['standard', 'plugin:prettier/recommended'],
+  extends: ['standard', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended', 'airbnb-typescript',],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 'latest',
